@@ -15,7 +15,7 @@ body {
     justify-content: center; 
 }
 
-.leftcolumn {
+.left_column {
     background-color: rgb(236, 231, 231);
     height: 100vh;
     min-height: 500px;
@@ -24,10 +24,10 @@ body {
     margin-top: 50px;
 }
 
-.rightcolumn {
+.right_column {
     display: flex;
     flex-direction: column;
-    
+   
 }
 
 .right1 {
@@ -37,11 +37,11 @@ body {
     margin-left: 20px;
     margin-right: 150px;
     margin-bottom: 20px;
-
+    
 }
 
 .jacobs {
-    margin: -40px 0 0 20px;
+    margin: -40px 0 0 10px;
     font-size: 27px;
     color: #0a0a0a;
 }
@@ -66,4 +66,24 @@ i {
 hr {
     color: lightgray;
     margin: 0 20px;
+}
+
+
+.a_propos p {
+margin : 2em;
+}
+
+.separation {
+    border: 1px solid #86C6E4;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.r_l_little_column {
+    background-color: rgb(236, 231, 231);
+    height: 50vh;
+    box-shadow: 3px 3px 5px 4px gray;
+    margin-top: 50px;
+    margin-left: auto;
+    display: flex;
 }
