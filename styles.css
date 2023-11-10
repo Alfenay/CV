@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    display: grid;
+    display: flex;
     grid-template-columns: 15% 1fr; 
     align-items: center; 
     justify-content: center; 
@@ -30,14 +30,14 @@ body {
    
 }
 
-.right1 {
+.right1, .r_l_little_column {
     flex: 1;
     background-color: white;
     box-shadow: 3px 3px 5px 4px gray;
-    margin-left: 20px;
-    margin-right: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 20px;
-    
+    justify-content: start;
 }
 
 .jacobs {
@@ -80,10 +80,14 @@ margin : 2em;
 }
 
 .r_l_little_column {
-    background-color: rgb(236, 231, 231);
-    height: 50vh;
-    box-shadow: 3px 3px 5px 4px gray;
-    margin-top: 50px;
-    margin-left: auto;
-    display: flex;
+    width: 500px;
+    height: 500px;
+    
+}
+
+.barre_progression {
+    height: 10px;
+    background-color: #86C6E4;
+    width: 0; 
+    transition: width 0.5s ease; 
 }
