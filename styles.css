@@ -3,7 +3,7 @@
          box-sizing: border-box
 }
 
-.top {
+header {
     text-align: center;
     padding: 20px;
 }
@@ -19,7 +19,7 @@ body {
     color: #4d4747
 }
 
-.partTwo {
+.partTwo, footer {
     text-align: center;
 }
 
@@ -54,6 +54,3 @@ h2, h3 {
     z-index: -1;   
 }
 
-footer {
-    text-align: center;
-}
